@@ -1,0 +1,1 @@
+./main --type=uniform --rep=100 --file=trianglemesh | sudo nice -n -10
