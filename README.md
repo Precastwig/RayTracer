@@ -1,3 +1,6 @@
+# Ray tracer
+Was built to test my custom ray tracing optimisation used in my masters thesis. Now being updated to actually be functional for other things! Notably, next on the agenda is to parallelise, might take a while, as the optimisations use external libraries that make things tricky.
+
 ## Building the project
 The project builds with the external library flags -lboost_system, -lboost_chrono, -lnlopt and -lm, from the libraries NLopt and Boost. These libraries must be installed before the project will compile.
 
