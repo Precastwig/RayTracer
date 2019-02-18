@@ -14,13 +14,13 @@ Additionally the extra boost library boost_chrono must be built, the instruction
 
 The project is a command line based application, with several parameters you can alter (if not filled they will revert to working defaults). For a list of available parameters the application can be run with the flag ```-h``` or can be seen below:
 
-```--file=path/to/file``` : sets the .x3d file to be read
-```--rep=15 : sets the``` number of repetitions to 15
-```--res=1920,1080``` : sets the resolution of the output image
-```--type=uniform``` : sets the octree type to be used to uniform
-```--type=nonuniform``` : sets the octree type to be used to non-uniform
-```-showoctree``` : before running the tests displays the generated octree as a text output (extremely verbose)
-```-compare``` : runs both types of octree on the given file and compares the two output arrays of colours to confirm they generate the same image
+```--file=path/to/file``` : sets the .x3d file to be read\
+```--rep=15 : sets the``` number of repetitions to 15\
+```--res=1920,1080``` : sets the resolution of the output image\
+```--type=uniform``` : sets the octree type to be used to uniform \
+```--type=nonuniform``` : sets the octree type to be used to non-uniform\
+```-showoctree``` : before running the tests displays the generated octree as a text output (extremely verbose)\
+```-compare``` : runs both types of octree on the given file and compares the two output arrays of colours to confirm they generate the same image\
 ```-h``` : displays this command list
 
 The program will the generate the .bmp output image in the same directory as the source image.
