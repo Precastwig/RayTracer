@@ -20,7 +20,7 @@ The project is a command line based application, with several parameters you can
 ```--type=uniform``` : sets the octree type to be used to uniform \
 ```--type=nonuniform``` : sets the octree type to be used to non-uniform\
 ```-showoctree``` : before running the tests displays the generated octree as a text output (extremely verbose)\
-```-compare``` : runs both types of octree on the given file and compares the two output arrays of colours to confirm they  generate the same image\
+```-compare``` : runs both types of octree on the given file and compares the two output arrays of colours to confirm they generate the same image\
 ```-h``` : displays this command list
 
 The program will the generate the .bmp output image in the same directory as the source image.
